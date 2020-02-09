@@ -1,0 +1,22 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "web2019 excercise",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "nodemon src/server.js"
+  },
+  "author": "Mikko  Malkavaara",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "math": "0.0.3",
+    "mongoose": "^5.4.20"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
